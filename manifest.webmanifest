@@ -1,0 +1,12 @@
+{
+  "name": "Trust Swap",
+  "short_name": "Trust Swap",
+  "description": "Swap ETH, USDC and tokens directly inside a self-custody wallet across EVM chains through an in-wallet DEX aggregator. You keep your keys. Not affiliated with Trust Wallet.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "icons": [{ "src": "eth.png", "sizes": "any", "type": "image/png", "purpose": "any" }]
+}

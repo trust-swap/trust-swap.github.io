@@ -1,0 +1,25 @@
+# Trust Swap — Swap Tokens Inside a Self-Custody Wallet Reference
+
+> Swap ETH, USDC and tokens directly inside a self-custody wallet across EVM chains — Ethereum, BNB Chain, Polygon, Arbitrum — through an in-wallet DEX aggregator. You keep your keys and seed phrase. Independent, not affiliated with Trust Wallet.
+
+## Key Facts
+- Trust Swap here = swapping tokens directly inside a self-custody wallet (a Trust Wallet–style in-wallet DEX aggregator) across EVM chains
+- Custody: non-custodial — you keep your own keys and seed phrase; the wallet signs every transaction
+- Network: runs on the EVM chain you select (Ethereum, BNB Chain, Polygon, Arbitrum, etc.); each swap stays on one chain
+- Gas: paid in each chain's native coin (ETH on Ethereum/Arbitrum, BNB on BNB Chain, POL on Polygon)
+- Costs: DEX pool fee + network gas (native coin) + price impact; ERC-20 spend needs a one-time approval
+- Common pairs: native coin <-> USDC / USDT and other tokens with on-chain liquidity
+- Independent resource — NOT affiliated with or endorsed by Trust Wallet, and NOT the separate TrustSwap project
+
+## Internal Sections & App Navigation
+- [What is Trust Swap?](#what)
+- [How swapping works](#how)
+- [In-wallet swaps & EVM chains](#network)
+- [Tokens & pairs](#tokens)
+- [Fees, gas & price impact](#fees)
+- [Is it safe?](#safety)
+- [FAQ](#faq)
+- [Open Trust Swap App](dashboard/index.html)
+
+## Disclaimer
+Independent page. Not affiliated with or endorsed by Trust Wallet, and not the separate TrustSwap project. Not financial advice.
